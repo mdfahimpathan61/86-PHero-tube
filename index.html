@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHero Tube</title>
+    <link rel="shortcut icon" href="images/icons8-play-button-16.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+   <style>
+    .tabClass{
+        text-align: center;
+    }
+   </style>
+</head>
+
+<body class="container mx-auto">
+    <header>
+       <section class="flex flex-col gap-2 md:flex-row justify-between items-center my-6 mx-4">
+        <img src="images/Logo.png" alt="">
+        <button class="btn btn-active btn-ghost font-medium">Sort by View</button>
+        <button onclick="blog()" id="blog-btn" class="btn btn-active bg-[#FF1F3D] text-white font-medium">Blog</button>
+       </section>
+       <hr>
+    </header>
+
+    <main class="mx-4">
+       
+
+
+        <div id="tab-container" class="tabs  flex text-center justify-center gap-3 my-3 items-center">
+            
+        </div>
+       
+
+        <section id="detail-container" class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-3">
+           
+        </section>
+
+        <div id="none-icon" class=" text-center hidden my-10">
+            <div class="flex justify-center">
+                <img  class=" " src="images/Icon.png" alt="">
+            </div> 
+            
+            <p class="text-3xl font-bold text-red-600">Opps! <br> There is no contant here</p>
+        </div>
+
+        
+    </main>
+
+    <footer></footer>
+
+    <script src="tube.js"></script>
+</body>
+
+</html>

@@ -80,3 +80,5 @@ const categoryId = async (id) => {
 function blog(){
     window.location.href=('blog.html')
 }
+
+console.log(name)
